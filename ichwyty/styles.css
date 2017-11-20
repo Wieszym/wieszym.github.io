@@ -3,12 +3,22 @@
 
 }
 header
-{   display: -webkit-inline-box;
+{   display: flex;
     justify-content: space-between;
     align-items: baseline;}
 body {
     max-width: 1024 px;
     margin: 0 auto;
- 
+.artykul{
+    display: flex: 
+    align-items:  start;
 
+}
+
+.artykul img{
+    width: 59%
+}
+
+.artykul text{
+    margin-right: 25px;
 }
