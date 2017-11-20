@@ -12,7 +12,11 @@ body {
 .artykul{
     display: flex: 
     align-items:  start;
+}
 
+body > header,
+body > section, {
+    border-bottom: 1px solid grey
 }
 
 .artykul img{
@@ -24,6 +28,7 @@ body {
     margin-right: 25px;
     text-align: justify
     text-indent: 20 px;
+}
 
 .projects{
     justify-content: space-between;
@@ -32,11 +37,23 @@ body {
 }
 
 .projects li{
-    width: 30%
+    width: 30%;
 
 }
 
 .projects img{
-    width: 100%
+    width: 100%;
 
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+address{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media li:not(:last-child) {
+margin-right: 20 px
 }
