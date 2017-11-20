@@ -16,9 +16,13 @@ body {
 }
 
 .artykul img{
-    width: 59%
+    width: 49%
+    border: 2px solid #696969
 }
 
 .artykul text{
     margin-right: 25px;
+    text-align: justify
+    text-indent: 20 px;
+
 }
