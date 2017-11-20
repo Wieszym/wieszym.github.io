@@ -1,0 +1,14 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+
+}
+header
+{   display: -webkit-inline-box;
+    justify-content: space-between;
+    align-items: baseline;}
+body {
+    max-width: 1024 px;
+    margin: 0 auto;
+ 
+
+}
