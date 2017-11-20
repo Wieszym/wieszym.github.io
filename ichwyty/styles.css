@@ -25,4 +25,18 @@ body {
     text-align: justify
     text-indent: 20 px;
 
+.projects{
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+
+.projects li{
+    width: 30%
+
+}
+
+.projects img{
+    width: 100%
+
 }
