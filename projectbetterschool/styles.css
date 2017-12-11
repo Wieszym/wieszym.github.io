@@ -1,0 +1,12 @@
+header{
+    font-size: 33px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+header>ul{
+    background-color: #607D8B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+a:link{
+    color: red;
+}
