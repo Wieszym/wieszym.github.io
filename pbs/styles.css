@@ -1,0 +1,76 @@
+header{
+    font-size: 33px;
+
+
+}
+
+nav{
+    color: #FAFAFA;
+    /* background-color: #37474f; */
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #444444;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.2em;
+    line-height: 39px;
+    border-bottom: 1px solid #888; 
+    /* to po wyżej wrzucić w nav li li  */
+}
+
+nav li ul{
+    position: absolute;
+    display: none;
+}
+
+nav li{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
+    line-height: 39px;
+    border-bottom: 1px solid #888;} 
+
+nav ul ul{
+    position: absolute;
+    display: none;
+}
+
+nav li li{
+    font-size: 0.8em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FAFAFA;
+    display: block;    
+    transition: .3s background-color;
+}
+
+nav a:hover{
+    background-color: #005f5f;
+}
+
+nav a:active{
+    background-color: #aaa;
+    color: #444;
+    cursor: default;
+}
+
+@media screen and (min-width: 1000px){
+    nav li{
+        width: 225px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
