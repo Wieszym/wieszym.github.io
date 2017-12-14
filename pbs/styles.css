@@ -31,7 +31,13 @@ nav li ul{
     display: none;
 }
 
-nav li ul li ul{
+nav li{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
+    line-height: 39px;
+    border-bottom: 1px solid #888;} 
+
+nav ul ul{
     position: absolute;
     display: none;
 }
