@@ -186,10 +186,11 @@ ol > li > ul > li > ul > li:hover > a{
     margin-left: 50px;
     z-index: 50;
     position: absolute;
-    width: 150px;
+    width: 170px;
     font-size: 1.25em;
     text-align: center;
     background: #fff;
+    border-radius: 15px;
 }
 
 .książka{
