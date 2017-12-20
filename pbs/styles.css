@@ -40,6 +40,7 @@ footer{
 .active{
     background-color: #03A9F4;
 }
+
 nav{
     font-family: "Oxygen"; 
     width: 100%;
@@ -81,9 +82,8 @@ ol > li:hover{
     transition-timing-function:linear;
 }
 
-
 ol > li:hover > a{
-    color: #CFD8DC;;
+    color: #CFD8DC;
     transition-duration: 0.5s;
     transition-timing-function:linear;    
 }
