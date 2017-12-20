@@ -169,30 +169,3 @@ ol > li > ul > li > ul > li:hover > a{
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
-
-
-/* menu wyboru książek */
-
-#container{
-    border: 1.5px solid #323232;
-    height: 500px;
-    position: relative;
-    z-index: 1;
-    margin: 25px;
-}
-
-#nag{
-    top: -15px;
-    margin-left: 50px;
-    z-index: 50;
-    position: absolute;
-    width: 150px;
-    font-size: 1.25em;
-    text-align: center;
-    background: #fff;
-}
-
-.książka{
-    height: 250px;
-    float: left;
-}
