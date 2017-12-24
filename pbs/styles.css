@@ -32,10 +32,14 @@ h1{
 footer{
     text-align: center;
     padding: 25px;
-    background: #01578A;
+    background: #01579B;
     color: #fafafa;
 }
 
+a{
+    text-decoration: none;
+    color: #212121;
+}
 /* Menu */
 .active{
     background-color: #03A9F4;
@@ -170,11 +174,36 @@ ol > li > ul > li > ul > li:hover > a{
     100% {opacity: 1;}
 }
 
+.up1{
+    top: -40px;
+}
+
+.up2{
+    top: -80px;
+}
+
+.up5{
+    top: -120px;
+}
+
+.up3{
+    top: -160px;
+}
+
+.up6{
+    top: -200px;
+}
+
+.up4{
+    top: -250px;
+}
+
 
 /* menu wyboru książek */
 
 #container{
     border: 1.5px solid #323232;
+    border-radius: 10px;
     height: 500px;
     position: relative;
     z-index: 1;
@@ -191,9 +220,39 @@ ol > li > ul > li > ul > li:hover > a{
     text-align: center;
     background: #fff;
     border-radius: 15px;
+    padding: 1px;
 }
 
-.książka{
-    height: 250px;
+.ksiazka{
     float: left;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.ksiazka img{
+    border-radius: 10px;
+    filter: grayscale(75%)
+}
+
+.podpis{
+    width: 175px;
+    margin-top: 1px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+
+}
+
+.ksiazka:hover img{
+    filter: grayscale(0%);
+    transition-duration: 0.5s;
+    transition-timing-function:linear; 
+}
+
+.ksiazka:hover>.podpis{
+    background: #8bc34a;
+    color: #fff;
+    transition-duration: 0.5s;
+    transition-timing-function:linear; 
 }
