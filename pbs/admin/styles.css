@@ -8,7 +8,7 @@ header{
 
 body{
     font-family: "Source Sans Pro";
-    background-image: url("img/doodles.png");
+    background-image: url("../img/doodles.png");
     font-size: 1em;
     margin: 0;
     color: #212121;
@@ -40,6 +40,39 @@ a{
     text-decoration: none;
     color: #212121;
 }
+
+
+
+/* Wyłączone menu */
+
+ol > li:nth-child(2) > ul > li:nth-child(1),
+ol > li:nth-child(2) > ul > li:nth-child(2),
+ol > li:nth-child(2) > ul > li:nth-child(3),
+ol > li:nth-child(2) > ul > li:nth-child(4),
+ol > li:nth-child(2) > ul > li:nth-child(5),
+ol > li:nth-child(2) > ul > li:nth-child(6),
+ol > li:nth-child(2) > ul > li:nth-child(8),
+ol > li:nth-child(3),
+ol > li:nth-child(4){
+    background: #313131;
+}
+ol > li:nth-child(2) > ul > li:nth-child(1) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(2) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(3) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(4) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(5) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(6) > ul,
+ol > li:nth-child(2) > ul > li:nth-child(8) > ul,
+ol > li:nth-child(3):hover > ul,
+ol > li:nth-child(4):hover > ul{
+    display: none;
+}
+ol > li:nth-child(3),
+ol > li:nth-child(4){
+    pointer-events: none;
+}
+
+
 /* Menu */
 .active{
     background-color: #03A9F4;
@@ -232,7 +265,7 @@ ol > li > ul > li > ul > li:hover > a{
 
 .ksiazka img{
     border-radius: 10px;
-    filter: grayscale(75%)
+    filter: grayscale(55%)
 }
 
 .podpis{
