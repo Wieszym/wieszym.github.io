@@ -44,29 +44,25 @@ footer{
     background: #01579B;
     color: #fafafa;
 }
-
 a{
     text-decoration: none;
     color: #212121;
 }
-
 p{
     margin: 0;
     padding: 10px 0;
 }
-
 #italic{
     font-style: italic;
     font-size: 0.75em;
     text-align: right;
 }
-
 blockquote {
     border-left: 10px solid #0091EA;
     margin: 0.5em 0;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-  }
+    quotes: "\201C""\201D";
+}
 blockquote:before {
     color: #01579B;
     content: open-quote;
@@ -74,11 +70,34 @@ blockquote:before {
     line-height: 0.1em;
     margin-right: 0.25em;
     vertical-align: -0.4em;
-  }
+}
 blockquote p {
     display: inline;
-  }
+}
+blockquote::after{
+    content: close-quote;
+    display: none;
+}
 
+.lista{
+    list-style-type: none;
+    margin: 0.67em 0;
+    padding: 0.17em;
+    font-size: 1em;
+    display: inline-block;
+}
+.lista > li::before{
+    color:#0091EA;
+    content: "❑";
+    margin-right: 10px;
+}
+.lista > li a{
+    color: #212121;
+}
+.lista > li{
+    float: left;
+    margin-right: 1.7em;
+}
 
 /* Wyłączone menu */
 
