@@ -366,20 +366,36 @@
             </li>
         </ol>
     </nav>
-    <section>
-            <h1>Od uczniów dla uczniów!</h1>
-
-        <p>Strona ma na celu dzielenie się materiałami związanymi ze sprawdzianami. Ma za zadanie pomóc uczniom w jeszcze lepszym
-            przygotowaniu do sprawdzianu, aby mogli oni zyskiwać co raz to lepsze wyniki w nauce. Materiały dytaktyczne mogą
-            się pokrywać z materiałami, które znajdziecie w szkole - w końcu podstawa programowa jest jedna. Rozdzielenie
-            na poszczególne podręczniki ma za zadanie pomóc w kategoryzowaniu działów, a co za tym idzie, materiałów przygotowawczych
-            do sprawdzianów.
-        </p>
-        <center>
-            <h2><p>Więc na co jeszcze czekasz?</p>
-            <p>Zapraszam do korzystania z zasobów tej strony!</p></h2>
-        </center>
-
+    <section></center>
+        <br />
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/y6120QOlsfU?rel=0&amp;start=1" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <div id="mapa">
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAWv3D3EiJFYVjJNU1nppcFIYRrvvJpTvQ'></script><div style='overflow:hidden;height:550px;width:480px;'><div id='gmap_canvas' style='height:550px;width:480px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important;}</style></div> <a href='http://maps-generator.com/pl'>Maps Generator PL</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=e37f2ebdd8649f25986d5078f90105742be67580'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:11,center:new google.maps.LatLng(54.178164,18.903087599999935),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(54.178164,18.903087599999935)});infowindow = new google.maps.InfoWindow({content:'<strong>Tu żyją prawowici koderzy 8)</strong><br>Nowa Cerkiew<br>82-112 Ostaszewo<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        <div id="formularz">
+            <input name="Imię" placeholder="Podaj swoje imię">
+            <br />
+            <br />
+            <input name="Nazwisko" placeholder="Podaj swoje nazwisko">
+            <p>Podaj swoją płeć:</p>
+            <div><input type="radio">Kobieta
+            <span></span>
+            <input type="radio">Mężczyzna</div>
+            <p>Jakiej przeglądarki internetowej używasz?</p>
+            <select name="Przeglądarka">
+                <option>Internet Explorer</option>
+                <option selected="selected">Chrome</option>
+                <option>Opera</option>
+                <option>Mozilla</option>
+                <option>Edge</option>
+                <option>Inna</option>
+            </select>
+            <p>Podaj swój komentarz:</p>
+            <textarea name="Komentarz" cols="50" rows="10" placeholder="Proszę, wpisz tutaj jakiś komentarz..."></textarea>
+            <br /><br />
+            <input type="submit" value="Wyślij formularz" />
+            <input type="reset" value="Wyczyść dane" />
+        </div>
     </section>
 
     <footer>
