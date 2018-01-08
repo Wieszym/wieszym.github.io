@@ -21,19 +21,6 @@ section{
     text-align: justify;
     background: #fff;
     padding: 12px;
-    display: flow-root;
-}
-#mapa{
-    float: right;
-    padding: 10px;
-}
-#formularz{
-    float: left;
-    padding: 10px;
-    max-width: 480px;
-}
-span{
-    padding: 0 5px;
 }
 
 embed{
@@ -65,7 +52,6 @@ footer{
     padding: 1.57em 0.32em;
     background: #01579B;
     color: #fafafa;
-    display: block;
 }
 footer > a{
     color: #fafafa;
@@ -411,8 +397,7 @@ ol > li > ul > li > ul > li:hover > a{
 
 .ksiazka img{
     border-radius: 10px;
-    filter: grayscale(66%);
-    transition: all .5s;
+    filter: grayscale(66%)
 }
 
 .podpis{
@@ -437,6 +422,3 @@ ol > li > ul > li > ul > li:hover > a{
     transition-timing-function:linear; 
 }
 
-.ksiazka>.podpis{
-    transition: all .5s;
-}
