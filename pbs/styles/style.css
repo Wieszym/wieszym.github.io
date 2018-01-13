@@ -11,6 +11,7 @@ body{
     font-size: 1em;
     margin: 0;
     color: #212121;
+    font-weight: 300;
 }
 
 section{
@@ -30,14 +31,14 @@ embed{
 h1{
     color: #424242;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 900;
     margin: 15px 0;
 }
 
 h2{
     color: #424242;
     font-size: 1.75em;
-    font-weight: 600;
+    font-weight: 700;
     margin: 10px 0;
 }
 
@@ -45,12 +46,13 @@ h3{
     color: #313131;
     font-size: 1.5em;
     margin: 7.5px 0 5px 5px;
+    font-weight: 600;
 }
 
 h4{
     color: #313131;
     font-size: 1.25em;
-    font-weight: 500;
+    font-weight: 400;
     margin: 5px 0 5px 1em;
     transition: all .5s;
     display: inline-block;
@@ -255,7 +257,7 @@ ol a{
     text-decoration: none;
     display: block;
 }
-ol > li{
+.menu{
     float: left;
     width: 200px;
     height: 40px;
@@ -263,17 +265,17 @@ ol > li{
     position: relative;
     transition: all .5s;
 }
-ol > li:hover{
+.menu:hover{
     background: #0091EA;
     transition-duration: 0.5s;
     transition-timing-function:linear;
 }
-ol > li:hover > a{
+.menu:hover > a{
     color: #CFD8DC;
     transition-duration: 0.5s;
     transition-timing-function:linear;    
 }
-ol > li > ul{
+.menu > ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -285,22 +287,22 @@ ol > li > ul{
     top: 50;
 
 }
-ol > li:hover > ul{
+.menu:hover > ul{
     display: block;
     animation: opacipy 0.25s linear;
 }
-ol > li > ul > li{
+.submenu{
     background: #01579A;
     position: relative;
     z-index: 99;
     transition: all .5s;
 }
-ol > li > ul > li:hover{
+.submenu:hover{
     background: #0091EA;
     transition-duration: 0.5s;
     transition-timing-function:linear; 
 }
-ol > li > ul > li:hover > a{
+.submenu:hover > a{
     color: #CFD8DC;
     transition-duration: 0.5s;
     transition-timing-function:linear; 
@@ -316,23 +318,23 @@ ol > li > ul > li > ul{
     width: 200px;
     top: 0;
 }
-ol > li > ul > li:hover > ul{
+.submenu:hover > ul{
     display: inline;
     animation: opacipy 0.25s linear;
 }
-ol > li > ul > li > ul > li{
+.submenu2{
     background: #01579A;
     z-index: 100;
     height: 35px;
     padding-bottom: 5px;
     transition: all .5s;
 }
-ol > li > ul > li > ul > li:hover{
+.submenu2:hover{
     background: #0091EA;
     transition-duration: 0.5s;
     transition-timing-function:linear; 
 }
-ol > li > ul > li > ul > li:hover > a{
+.submenu2:hover > a{
     color: #CFD8DC;
     transition-duration: 0.5s;
     transition-timing-function:linear; 
