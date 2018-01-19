@@ -18,7 +18,6 @@ body{
 }
 
 section{
-    padding-top: 10px;
     max-width: 976px;
     margin-left: auto;
     margin-right: auto;
@@ -178,21 +177,24 @@ blockquote::after{
     margin: 7.5px 0 5px 5px;
     font-weight: 400;
 }
-
-.blue1{
+.bluespanmainsection1{
     color: #01579B;
 }
-.blue2{
+.bluespanmainsection2{
     color:#01579B;
     font-size: 1.5em;
 }
 .imgmain{
-    margin: 0;
+    margin: 5px 0 5px 0;
     max-width: 1920px;
     width:100%;
 }
+#mail{
+    text-decoration: underline;
+}
 
-/* Wyłączone menu */
+/* Wyłączone menu
+nav -> szkoła pod(2)/gim(3)/średnia(4) -> klasa -> przedmiot */
 ol > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(1), 
 ol > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(2),
 ol > li:nth-child(2) > ul > li:nth-child(1) > ul > li:nth-child(3),
@@ -261,7 +263,6 @@ ol > li:nth-child(4),
 .przedmiotyp1 > li:nth-child(3) > a{
     pointer-events: none;
 }
-
 
 
 /* Menu */
