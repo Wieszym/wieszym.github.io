@@ -71,15 +71,40 @@ h4:hover{
     transition-duration: .5s;
     transition-timing-function:linear;
 }
-
 footer{
-    text-align: center;
-    padding: 1em;
     background: #01579B;
     color: #fafafa;
 }
-footer > a{
+#footer{
+    text-align: center;
+    padding: 1em;
+}
+#footer > a{
     color: #fafafa;
+}
+aside{
+    float:right;
+    font-family: Frino;
+    display: table;
+    line-height: 95px;
+}
+aside a{
+    color: #fafafa;
+    transition: all .5s;
+}
+#maill a:hover, #fb a:hover{
+    color:#424242;
+    transition-duration: .5s;
+    transition-timing-function:linear;
+}
+#maill, #fb{
+    height: 40px;
+    width: 40px;
+    font-size: 2em;
+    color: #fafafa;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 a{
     text-decoration: none;
@@ -279,6 +304,7 @@ nav{
     height: 50px;
     left: 0;
     top: 0;
+    display: inline-table;
 }
 ol{
     padding: 0;
