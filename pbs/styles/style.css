@@ -12,6 +12,7 @@ body{
     margin: 0;
     color: #212121;
     font-weight: 300;
+    /* min-width: 500px; - potrzebne? */
 }
 #bodymainpage{
     background: #fff;
