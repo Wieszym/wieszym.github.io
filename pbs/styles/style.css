@@ -212,7 +212,6 @@ blockquote::after{
 }
 .imgmain{
     margin: 5px 0 5px 0;
-    max-width: 1920px;
     width:100%;
 }
 #mail{
@@ -236,7 +235,6 @@ ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(1),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(2),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(3),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(4),
-ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(5),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(6),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(7),
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(8),
@@ -267,7 +265,6 @@ ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(1) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(2) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(3) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(4) > a,
-ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(5) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(6) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(7) > a,
 ol > li:nth-child(2) > ul > li:nth-child(7) > ul > li:nth-child(8) > a,
@@ -282,7 +279,6 @@ ol > li:nth-child(4),
 .listap2 > li:nth-child(1) > a,
 .listap2 > li:nth-child(2) > a,
 .listap2 > li:nth-child(3) > a,
-.listap3 > li:nth-child(1) > a,
 .listap3 > li:nth-child(2) > a,
 .przedmiotyp1 > li:nth-child(1) > a,
 .przedmiotyp1 > li:nth-child(2) > a,
