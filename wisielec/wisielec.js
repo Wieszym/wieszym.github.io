@@ -1,4 +1,4 @@
-var haslo = "Wlazł kotek na płotek";
+var haslo = prompt();
 haslo = haslo.toUpperCase();
 
 var haslo1 = "";
