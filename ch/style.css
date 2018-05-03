@@ -16,15 +16,8 @@ body{
     text-shadow: black 0px 0px 2px;
     filter: grayscale(83%);
     opacity: 0.8;
-}
-
-#startleft:hover, #startright:hover{
-    filter: grayscale(0%);
     transition-duration: 0.71s;
-    transition-timing-function: linear; 
-    opacity: 1;
 }
-
 
 #startright{
     float: left;
@@ -36,6 +29,7 @@ body{
     text-shadow: black 0px 0px 2px;
     filter: grayscale(75%);
     opacity: 0.8;
+    transition-duration: 0.71s;
 }
 
 #startleft::before, #startright::before{
@@ -43,6 +37,13 @@ body{
     vertical-align: middle;
     content: '';
     display: inline-block;
+}
+
+#startleft:hover, #startright:hover{
+    filter: grayscale(0%);
+    transition-duration: 0.71s;
+    transition-timing-function: linear; 
+    opacity: 1;
 }
 
 a{
