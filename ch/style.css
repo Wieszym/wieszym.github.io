@@ -1,0 +1,42 @@
+body{
+    font-family: "Bree Serif";
+    font-size: 69px;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+#startleft{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url("1.jpg");
+    background-position: center;
+    background-size: cover;
+    text-shadow: black 0px 0px 2px;
+    filter: grayscale(75%);
+}
+
+#startleft:hover, #startright:hover{
+    filter: grayscale(0%);
+    filter: blur(1px);
+}
+
+#startright{
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: darkslategray;
+}
+
+#startleft::before, #startright::before{
+    height: 100%;
+    vertical-align: middle;
+    content: '';
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #fafafa;
+}

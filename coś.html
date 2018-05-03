@@ -1,0 +1,27 @@
+<html lang=pl>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h3> Nagłówek </h3>
+    <ul id='lista'>
+        <li>
+            pierwszy
+        </li>
+        <li>
+            drugi
+        </li>
+        <li>
+            trzeci
+        </li>
+    </ul>
+    <button id="button">Kliknij mnie!</button>
+    <script>
+    var rodzic = document.getElementById("lista");
+    var dziecko = document.createElement("li");
+    dziecko.innerText="czwarty";
+    console.log(rodzic, dziecko);
+    rodzic.appendChild(dziecko);
+    </script>
+</body>
+</html>
