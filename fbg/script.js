@@ -17,7 +17,7 @@ pipeSouth.src = "image/pipeSouth.png";
 
 // some variables
 
-var gap = 350;  // tutaj operować dziurą między rurkami
+var gap = 85;  // tutaj operować dziurą między rurkami
 var constant = pipeNorth.height+gap;
 
 var bX = 10;
