@@ -1,200 +1,28 @@
 <html lang="pl">
     <head>
-        <meta charset="utf-8"> 
-        <title>sprawdzianik.pl - Sprawdż się!</title>
-        <meta name="description" content="Znajdziesz tutaj materiały, które przydadzą się Tobie w szkole.">
-        <meta name="author" content="Szymon Mączyński">
-        <meta name="keywords" content="klasówka, praca klasowa, test, sprawdzian">
-        <meta name="theme-color" content="#01579B">
-        <link rel="stylesheet" href="styles/style.css" type="text/css">
-        <link rel="icon" type="image/png" href="img/icon.png">
-        <link href="https://fonts.googleapis.com/css?family=Oxygen|Source+Sans+Pro:400,400i,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <meta charset="utf-8">
+        <script type="text/javascript">
+        var liczba = 0
+        
+        function check()
+        {
+            new Array[document.getElementsByClassName("number")];
+            console.log(Array);
+        } 
+
+        function add()
+        {
+
+        }
+        </script>
     </head>
     <body>
-        <header>
-            <a href="http://sprawdzianik.pl"><img src="img/logo.png" alt="sprawdzianik.pl"></a>
-        </header>
-        <nav>
-           <ol>
-                <li class="active"><a href=".">Strona główna</a></li>
-                <li><a href="podstawowa">Szkoła podstawowa</a>
-                    <ul>
-                        <li><a href="podstawowa/i">Klasa I</a>
-                            <ul>
-                                <li><a href="podstawowa/i/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/i/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/i/polski">Język polski</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/ii">Klasa II</a>
-                            <ul>
-                                <li><a href="podstawowa/ii/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/ii/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/ii/polski">Język polski</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/iii">Klasa III</a>
-                            <ul class="up1">
-                                <li><a href="/podstawowa/iii/matematyka">Matematyka</a></li>
-                                <li><a href="/podstawowa/iii/angielski">Język angielski</a></li>
-                                <li><a href="/podstawowa/iii/polski">Język polski</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/iv">Klasa IV</a>
-                            <ul class="up2">
-                                <li><a href="podstawowa/iv/historia">Historia</a></li>
-                                <li><a href="podstawowa/iv/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/iv/polski">Język polski</a></li>
-                                <li><a href="podstawowa/iv/informatyka">Informatyka</a></li>
-                                <li><a href="podstawowa/iv/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/iv/przyroda">Przyroda</a></li>
-                                <li><a href="podstawowa/iv/technika">Technika</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/v">Klasa V</a>
-                            <ul class="up5">
-                                <li><a href="podstawowa/v/biologia">Biologia</a></li>
-                                <li><a href="podstawowa/v/geografia">Geografia</a></li>
-                                <li><a href="podstawowa/v/historia">Historia</a></li>
-                                <li><a href="podstawowa/v/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/v/polski">Język polski</a></li>
-                                <li><a href="podstawowa/v/informatyka">Informatyka</a></li>
-                                <li><a href="podstawowa/v/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/v/technika">Technika</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/vi">Klasa VI</a>
-                            <ul class="up3">
-                                <li><a href="podstawowa/vi/biologia">Biologia</a></li>
-                                <li><a href="podstawowa/vi/geografia">Geografia</a></li>
-                                <li><a href="podstawowa/vi/historia">Historia</a></li>
-                                <li><a href="podstawowa/vi/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/vi/polski">Język polski</a></li>
-                                <li><a href="podstawowa/vi/informatyka">Informatyka</a></li>
-                                <li><a href="podstawowa/vi/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/vi/technika">Technika</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/vii">Klasa VII</a>
-                            <ul class="up6">
-                                <li><a href="podstawowa/vii/biologia">Biologia</a></li>
-                                <li><a href="podstawowa/vii/chemia">Chemia</a></li>
-                                <li><a href="podstawowa/vii/fizyka">Fizyka</a></li>
-                                <li><a href="podstawowa/vii/geografia">Geografia</a></li>
-                                <li><a href="podstawowa/vii/historia">Historia</a></li>
-                                <li><a href="podstawowa/vii/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/vii/niemiecki">Język niemiecki</a></li>
-                                <li><a href="podstawowa/vii/polski">Język polski</a></li>
-                                <li><a href="podstawowa/vii/informatyka">Informatyka</a></li>
-                                <li><a href="podstawowa/vii/matematyka">Matematyka</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="podstawowa/viii">Klasa VIII</a>
-                            <ul class="up4">
-                                <li><a href="podstawowa/viii/biologia">Biologia</a></li>
-                                <li><a href="podstawowa/viii/chemia">Chemia</a></li>
-                                <li class="edb"><a href="podstawowa/viii/edb">Edukacja dla bezpieczeństwa</a></li>
-                                <li><a href="podstawowa/viii/fizyka">Fizyka</a></li>
-                                <li><a href="podstawowa/viii/geografia">Geografia</a></li>
-                                <li><a href="podstawowa/viii/historia">Historia</a></li>
-                                <li><a href="podstawowa/viii/angielski">Język angielski</a></li>
-                                <li><a href="podstawowa/viii/niemiecki">Język niemiecki</a></li>
-                                <li><a href="podstawowa/viii/polski">Język polski</a></li>
-                                <li><a href="podstawowa/viii/informatyka">Informatyka</a></li>
-                                <li><a href="podstawowa/viii/matematyka">Matematyka</a></li>
-                                <li><a href="podstawowa/viii/wos">Wiedza o społeczeństwie</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="gimnazjum">Gimnazjum</a>
-                    <ul>
-                        <li><a href="gimnazjum/ii">Klasa II</a>
-                            <ul>
-                                <li><a href="gimnazjum/ii/biologia">Biologia</a></li>
-                                <li><a href="gimnazjum/ii/chemia">Chemia</a></li>
-                                <li><a href="gimnazjum/ii/fizyka">Fizyka</a></li>
-                                <li><a href="gimnazjum/ii/geografia">Geografia</a></li>
-                                <li><a href="gimnazjum/ii/historia">Historia</a></li>
-                                <li><a href="gimnazjum/ii/angielski">Język angielski</a></li>
-                                <li><a href="gimnazjum/ii/niemiecki">Język niemiecki</a></li>
-                                <li><a href="gimnazjum/ii/polski">Język polski</a></li>
-                                <li><a href="gimnazjum/ii/informatyka">Informatyka</a></li>
-                                <li><a href="gimnazjum/ii/matematyka">Matematyka</a></li>
-                                <li><a href="gimnazjum/ii/wos">Wiedza o społeczeństwie</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="gimnazjum/iii">Klasa III</a>
-                            <ul class="up1">
-                                <li><a href="gimnazjum/iii/biologia">Biologia</a></li>
-                                <li><a href="gimnazjum/iii/chemia">Chemia</a></li>
-                                <li class="edb"><a href="gimnazjum/iii/edb">Edukacja dla bezpieczeństwa</a></li>
-                                <li><a href="gimnazjum/iii/fizyka">Fizyka</a></li>
-                                <li><a href="gimnazjum/iii/geografia">Geografia</a></li>
-                                <li><a href="gimnazjum/iii/historia">Historia</a></li>
-                                <li><a href="gimnazjum/iii/angielski">Język angielski</a></li>
-                                <li><a href="gimnazjum/iii/niemiecki">Język niemiecki</a></li>
-                                <li><a href="gimnazjum/iii/polski">Język polski</a></li>
-                                <li><a href="gimnazjum/iii/matematyka">Matematyka</a></li>
-                                <li><a href="gimnazjum/iii/wos">Wiedza o społeczeństwie</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="srednia">Szkoła średnia</a>
-                    <ul>
-                        <li><a href="srednia/i">Klasa I</a></li>
-                            <ul>
-                                <li><a href="srednia/i/biologia">Biologia</a></li>
-                                <li><a href="srednia/i/chemia">Chemia</a></li>
-                                <li class="edb"><a href="srednia/i/edb">Edukacja dla bezpieczeństwa</a></li>
-                                <li><a href="srednia/i/fizyka">Fizyka</a></li>
-                                <li><a href="srednia/i/geografia">Geografia</a></li>
-                                <li><a href="srednia/i/historia">Historia</a></li>
-                                <li><a href="srednia/i/angielski">Język angielski</a></li>
-                                <li><a href="srednia/i/niemiecki">Język niemiecki</a></li>
-                                <li><a href="srednia/i/polski">Język polski</a></li>
-                                <li><a href="srednia/i/matematyka">Matematyka</a></li>
-                                <li><a href="srednia/i/wos">Wiedza o społeczeństwie</a></li>
-                            </ul>
-                        <li><a href="srednia/ii">Klasa II</a></li>
-                        <li><a href="srednia/iii">Klasa III</a></li>
-                        <li><a href="srednia/iv">Klasa IV</a></li>
-                    </ul>
-                </li>
-                <li><a href="od-autora">Od autora</a></li>
-           </ol>
-        </nav>
-        <section>
-            <center><h1>Witaj na stronie <a href=".">sprawdzianik.pl</a>!</h1></center>
-            <h2>Jako uczeń:</h2>
-            <h3>Znajdziesz tutaj materiały, które pomogą Ci zdobyć lepsze oceny,</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum purus a euismod tristique. Donec et risus in sem accumsan scelerisque sed eget dolor. Nullam iaculis faucibus nisi, eu ullamcorper mi euismod et. Nulla sollicitudin tempus ipsum nec laoreet. Nullam tempor dolor in fringilla finibus. Nam ut porta ipsum. Nam quis pretium magna, ac lobortis arcu. In scelerisque nibh sit amet urna aliquam mattis. Pellentesque commodo varius ex rhoncus sollicitudin. Maecenas laoreet maximus pellentesque. Aenean ornare metus id nulla tristique, pellentesque tempor felis pellentesque. Fusce id dignissim nisi, luctus efficitur diam. Pellentesque dui neque, lacinia id diam ac, porttitor varius mi. Morbi scelerisque rutrum sagittis. In suscipit erat risus, at dignissim leo maximus ut.</p>
-            
-            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec neque diam, placerat eget ligula eget, tincidunt eleifend massa. In sed varius nisl, porta lobortis justo. Duis quis tortor eget felis dictum condimentum. Nulla et leo a est ultricies dignissim. Donec congue venenatis odio, ac iaculis leo tempor eget. Phasellus tellus tortor, ullamcorper at ullamcorper quis, ultrices ac erat. Pellentesque accumsan, odio vel efficitur consequat, sem sem suscipit orci, a porta orci elit at massa. Nam libero enim, tempus quis mauris fringilla, accumsan laoreet ligula. Suspendisse iaculis, leo a condimentum ullamcorper, neque tellus dapibus turpis, sit amet vehicula neque tellus et velit. Cras mollis mi consequat mattis bibendum.</p>
-            
-            <p>Suspendisse eros libero, accumsan non tempor et, ultricies laoreet dui. Nullam quis lectus eget mi maximus consectetur vehicula at felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at condimentum leo, eu maximus elit. Donec et tempor arcu. Nulla facilisi. In cursus placerat leo, non hendrerit odio. Nunc lobortis, diam non volutpat volutpat, tellus turpis congue ipsum, eu ullamcorper erat elit non lacus. Aenean sit amet tincidunt eros.</p>
-            
-            <p>Nunc nec neque in mi faucibus tristique. Morbi in dapibus metus. Nullam orci mi, consequat id vestibulum ac, aliquet in purus. Donec fringilla aliquam feugiat. Curabitur tellus dolor, porta vel nibh eget, ultrices condimentum arcu. Donec a pellentesque erat. Aliquam id sem non orci viverra hendrerit sed quis dolor. Integer rutrum, nulla a condimentum convallis, neque elit mollis justo, vel rutrum ex eros id libero.</p>
-            
-            <p>In hac habitasse platea dictumst. Integer auctor commodo consequat. Etiam consequat, dolor id consequat ultricies, turpis elit posuere enim, ac tincidunt dui tellus in lacus. Vestibulum dictum magna sit amet aliquam viverra. Nulla tincidunt massa mauris, ut feugiat arcu euismod a. Maecenas a cursus sapien, id pulvinar lectus. Sed turpis urna, volutpat vitae tincidunt ut, ultrices ac mi. Curabitur iaculis lobortis blandit. Suspendisse dapibus ullamcorper blandit. Mauris urna sapien, vulputate nec aliquam eu, pellentesque id leo. Vivamus ac iaculis nunc. Sed faucibus aliquam molestie. Donec volutpat a ligula et pulvinar. Phasellus egestas ornare neque ut placerat.</p>
-            
-            <p>Nullam in lacinia quam. Duis porttitor nisl nec felis sagittis consequat. Pellentesque dignissim lacinia nisi at pretium. Proin semper ligula ac orci condimentum dignissim. Nam dapibus tellus a commodo egestas. Maecenas maximus erat justo, eu porttitor quam imperdiet quis. Nunc aliquam tincidunt dolor in condimentum. Vestibulum condimentum tincidunt justo varius accumsan. Cras maximus neque nulla, quis congue nisi sagittis ut. Aenean in ultrices justo.</p>
-            
-            <p>Sed aliquet ex ultrices molestie ornare. Fusce suscipit accumsan lorem, et laoreet quam commodo id. Nullam est dui, malesuada luctus tincidunt ac, eleifend ac odio. Maecenas eget turpis pulvinar, iaculis urna sed, pretium urna. Praesent ac diam eleifend, varius sapien quis, lobortis dui. Maecenas mauris orci, ultrices et ante sed, tincidunt rutrum mi. Quisque efficitur luctus imperdiet.</p>
-            
-            <p>Nam accumsan fringilla vulputate. Etiam eget ipsum pretium, porta arcu ut, elementum nibh. Duis sem felis, sollicitudin id faucibus a, suscipit ac neque. Donec suscipit lacus sed massa auctor, sit amet aliquet libero interdum. Aliquam sem odio, efficitur quis quam sit amet, bibendum pretium ligula. Nunc pellentesque aliquam dui, aliquet malesuada elit. Ut auctor ligula in enim aliquam, in sagittis orci sagittis. Nam at dui consectetur, feugiat neque at, elementum sem. Morbi condimentum, risus sed sagittis imperdiet, metus dolor feugiat mi, nec malesuada felis lorem eu diam. Proin volutpat ac quam eu laoreet. Cras vitae elementum felis, a mollis lectus. Fusce id suscipit diam. Donec dictum viverra augue eget viverra. Etiam massa lorem, congue eu blandit non, laoreet ut nunc. Proin congue tristique orci sit amet tincidunt.</p>
-            
-            <p>Mauris tortor sem, dignissim in accumsan ac, vulputate quis ante. Aliquam egestas magna non enim ullamcorper accumsan. Nullam pharetra justo non nisi fringilla maximus. Nam fermentum fringilla ex non dignissim. Praesent in mauris ac felis gravida rutrum. Vivamus a libero id ante rutrum varius. Phasellus ut bibendum odio. Proin sapien turpis, tincidunt vitae ex et, egestas sodales neque. Donec aliquam ultrices eros, nec lobortis purus vulputate quis.</p>
-            
-            <p>Maecenas tempus, magna in bibendum efficitur, quam nulla lacinia lacus, id porttitor neque lacus vel tellus. Phasellus rhoncus leo quis turpis luctus maximus. Nullam eleifend tempor arcu, ac egestas libero tincidunt ut. Aenean tincidunt commodo nisl, eu rhoncus nisi varius in. Pellentesque congue dapibus orci, quis semper elit eleifend quis. Aliquam efficitur, sem nec ultrices dictum, lorem ligula feugiat tellus, mollis commodo felis erat eget urna. Maecenas sit amet facilisis ex.</p>
-
-        </section>
-
-        <footer>
-            <a href="http://sprawdzianik.pl">sprawdzianik.pl</a> &copy; 2018
-            <br>Korzystanie ze strony <a href="http://sprawdzianik.pl">sprawdzianik.pl</a> jest dobrowolne. Serwis nie hostuje plików.
-        </footer>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <br />
+        <button name="add">Dodaj</button>
+        <button name="del">Usuń</button>
+        <button onclick="check()">check</button>
     </body>
-
 </html>
