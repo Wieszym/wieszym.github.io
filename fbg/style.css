@@ -9,12 +9,13 @@ h1{
     color: #ECEFF1;
     font-size: 44px;
     margin-bottom: 2px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    font-weight: 600;
 }
 
 #canvas{
-    border: 5px solid #3E2723;
+    border: 5px solid #546E7A;
     border-radius: 7px;
 }
 
@@ -35,5 +36,5 @@ a{
     font-size: 10px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-
+    color: #ECEFF1; 
 }

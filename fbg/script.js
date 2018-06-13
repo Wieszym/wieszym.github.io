@@ -49,7 +49,9 @@ pipe [0] = {
 
 var scor = new Audio ();
 var soundtrack = new Audio();
+var sad = new Audio();
 
+sad.src = "sound/sad.mp3"
 soundtrack.src = "sound/fristajlo.mp3"
 scor.src = "sound/score.mp3"
 
@@ -107,9 +109,10 @@ function start(){
 }
 
 function stop(){
-    var con = confirm ("Your score: "+score+". Play again?");
+    soundtrack.pause ();
+    sad.play ();
+    var con = confirm ("You Lose! Your score: "+score+". Do you want to play again?");
     if  (con==true){
-        start;
     }
     else{
         location.href="http://google.pl";

@@ -119,7 +119,7 @@ function start(){
 function stop(){
     var con = confirm ("Your score: "+score+". Play again?");
     if  (con==true){
-        start;
+        start ();
     }
     else{
         location.href="http://google.pl";
