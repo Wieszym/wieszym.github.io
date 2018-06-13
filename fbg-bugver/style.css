@@ -1,0 +1,39 @@
+body{
+    background-color: #455A64;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    background-color: #263238;
+    color: #ECEFF1;
+    font-size: 44px;
+    margin-bottom: 2px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+#canvas{
+    border: 5px solid #3E2723;
+    border-radius: 7px;
+}
+
+footer{
+    background-color: #263238;
+    color: #ECEFF1;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ECEFF1;
+}
+#Music{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
