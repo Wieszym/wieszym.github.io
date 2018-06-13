@@ -15,15 +15,15 @@ fg.src = "image/fg.png";
 pipeNorth.src = "image/pipeNorth.png"; 
 pipeSouth.src = "image/pipeSouth.png"; 
 
-// some variables
+//some variables
 
-var gap = 85;  // tutaj operować dziurą między rurkami
+var gap = 89;  //space between pipes
 var constant = pipeNorth.height+gap;
 
 var bX = 10;
 var bY = 150;
 
-var gravity = 1.5;
+var gravity = 2;
 
 var score = 0;
 
@@ -32,7 +32,7 @@ var score = 0;
 document.addEventListener ("keydown", moveUp);
 
 function moveUp(){
-    bY -= 25;
+    bY -= 28;
     soundtrack.play();
 }
 
@@ -52,10 +52,6 @@ var soundtrack = new Audio();
 
 soundtrack.src = "sound/fristajlo.mp3"
 scor.src = "sound/score.mp3"
-
-// if (window.onload){
-//     soundtrack.play();
-// }
 
 //draw images
 
@@ -79,7 +75,7 @@ function draw(){
         //collision
 
         if(bX + bird.width >= pipe[i].x && bX <= pipe[i].x + pipeNorth.width && (bY <= pipe[i].y + pipeNorth.height || bY + bird.height >= pipe[i].y+constant) || bY + bird.height >= cvs.height - fg.height){
-            location.reload(); //reloadpage
+            stop();
         }
 
         if(pipe[i].x == 5){
@@ -98,7 +94,35 @@ function draw(){
     ctx.font = "20px Verdana";
     ctx.fillText ("Score : "+score,10,cvs.height-20);
 
-    requestAnimationFrame (draw);
+    var aframe = requestAnimationFrame (draw);
 }
 
 draw();
+
+var star = document.getElementById("Start");
+star.addEventListener("click", start);
+
+function start(){
+    // bX = 10;
+    // bY = 150;
+    // pipe [0] = {
+    //     x: cvs.width,
+    //     y: 0
+    // };
+    // score = 0
+    // // pipe.x: cvs.width;
+    // // pipe.y: Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height;
+    // draw ();
+    location.reload();
+}
+
+function stop(){
+    var con = confirm ("Your score: "+score+". Play again?");
+    if  (con==true){
+        start;
+    }
+    else{
+        location.href="http://google.pl";
+    }
+    window.cancelAnimationFrame (aframe);
+}
