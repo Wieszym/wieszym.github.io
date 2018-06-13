@@ -103,16 +103,6 @@ var star = document.getElementById("Start");
 star.addEventListener("click", start);
 
 function start(){
-    // bX = 10;
-    // bY = 150;
-    // pipe [0] = {
-    //     x: cvs.width,
-    //     y: 0
-    // };
-    // score = 0
-    // // pipe.x: cvs.width;
-    // // pipe.y: Math.floor(Math.random()*pipeNorth.height)-pipeNorth.height;
-    // draw ();
     location.reload();
 }
 
@@ -126,6 +116,3 @@ function stop(){
     }
     window.cancelAnimationFrame (aframe);
 }
-
-
-location.reload;

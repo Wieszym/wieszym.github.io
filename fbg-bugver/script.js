@@ -126,5 +126,3 @@ function stop(){
     }
     window.cancelAnimationFrame (aframe);
 }
-
-location.reload;
